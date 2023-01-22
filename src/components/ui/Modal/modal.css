@@ -1,0 +1,96 @@
+
+
+.modal__wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff5e;
+    z-index: 4444444;
+}
+
+.single__modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    z-index: 5555555;
+    border: 4px solid  #2e307d;
+    font-family: Unbounded, cursive;
+}
+.place__bid-btn{
+    margin-top: .5rem;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 3px solid #000;
+    border-radius: 6px;
+    background-color: #ffbd4a;
+    box-shadow: 0 8px 0 0 #000;
+    -webkit-transition: box-shadow 500ms cubic-bezier(.075, .82, .165, 1), border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+    transition: box-shadow 500ms cubic-bezier(.075, .82, .165, 1), border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+    color: #000;
+    font-size: 0.83em;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    width: 10.1em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.place__bid-btn:hover{
+    background: #ffffff;
+}
+.close__model{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 6666666;
+}
+.close__model i{
+    padding: 5px;
+    background-color: #ffbd4a;
+    box-shadow: 0 8px 0 0 #000;
+    -webkit-transition: box-shadow 500ms cubic-bezier(.075, .82, .165, 1), border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+    transition: box-shadow 500ms cubic-bezier(.075, .82, .165, 1), border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 6px;
+}
+.money{
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:992px) {
+
+    .single__modal{
+        width: 300px;
+        height: auto;
+    }
+    .single__modal h6{
+        font-size: .7rem;
+    }
+    .single__modal p{
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+    .money{
+        width: 80%;
+        border-radius: 0;
+    }
+    .input__item h6{
+        font-size: .7rem;
+    }
+    .input__item input{
+        padding: 5px 20px !important;
+    }
+}

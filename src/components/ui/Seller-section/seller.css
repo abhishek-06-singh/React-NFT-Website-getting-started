@@ -1,0 +1,13 @@
+
+
+.seller__section-title h3{   
+font-family: Unbounded, cursive;
+}
+.seller__img{
+    width: 80px;
+    height: 80px;
+}
+.seller__content h6{
+    font-size: .8rem;
+    color: black;
+}

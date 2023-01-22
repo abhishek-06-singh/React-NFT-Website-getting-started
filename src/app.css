@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,300;1,400&family=Unbounded:wght@200;400;500&display=swap");
+ 
+*{
+    
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+  
+}
+
+body{
+    
+    background: #6fd7d8 !important;
+    font-family: 'Roboto Mono', monospace;
+
+}
+h1,h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+    opacity: 85%;
+    line-height: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover{
+    color: unset;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section,footer{
+    padding: 60px 0px;
+}
+
+
+
+/*============================== custom scroll bar =================================*/
+
+::-webkit-scrollbar{
+    width: 10px;
+    background:  #6fd7d8;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background: linear-gradient(-45deg , #d34141, #5ac439,#d34141, #5ac439);
+}

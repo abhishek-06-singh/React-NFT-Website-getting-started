@@ -1,0 +1,100 @@
+
+
+.hero__section{
+    margin-top: 50px;
+}
+.hero__content h2{
+  line-height: 55px;
+  font-size: 2.5rem;
+  color:#e7e0e0;
+  font-family: Unbounded, cursive;
+}
+
+.hero__content p{
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.hero__content h2 span{
+    background: linear-gradient(-45deg , #d34141, #5ac439,#d34141, #5ac439);
+    background-size: 90% 90%;
+    background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    -webkit-text-fill-color:  #6fd7d8;
+    margin-left: 7px !important;
+    display: inline-block;
+}
+.hero__btns button a{
+    text-decoration: none;
+}
+.hero__btns button {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 3px solid #000;
+    border-radius: 6px;
+    background-color: #ffbd4a;
+    box-shadow: 0 8px 0 0 #000;
+    -webkit-transition: box-shadow 500ms cubic-bezier(.075, .82, .165, 1), border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+    transition: box-shadow 500ms cubic-bezier(.075, .82, .165, 1), border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+    color: #000;
+    font-size: 0.83em;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    width: 10.1em;
+    text-decoration: none;
+}
+.hero__btns button:hover{
+    background-color: #fff;
+    text-decoration:none;
+}
+.hero__btns button a:hover{
+    color: #000000;
+    background-color: #fff;
+    text-decoration: none;
+}
+.hero__img {
+    /* height: 80%; */
+    width: 500px;
+    margin-left: auto;
+}
+.hero__img img{
+    border-radius: 7px;
+}
+
+@media only screen and (max-width:768px){
+    .hero__img{
+        width: 300px;
+    }
+    .hero__section{
+        margin-top: 90px;
+    }
+    .hero__content h2{
+        font-size: 1.5rem;
+        line-height: 45px;
+    }
+   .hero__content p{
+    font-size: 0.8rem;
+    line-height: 25px;
+   }
+   .create__btn a,
+   .explore__btn a{
+    font-size: 0.7rem;
+   }
+   .create__btn ,
+   .explore__btn{
+    padding: 4px 25px !important;
+   } 
+}
+
+@media only screen and (max-width:576px){
+
+    .hero__img{
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        
+    }
+}
