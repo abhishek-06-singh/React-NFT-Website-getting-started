@@ -24,13 +24,14 @@ p{
     font-weight: 400;
     font-size: 1rem;
     color: #000000;
-    opacity: 85%;
+    opacity: 1 !important;
     line-height: 35px;
 }
 
 a{
     text-decoration: none;
     color: unset;
+    opacity: 1 !important;
 }
 
 a:hover{
@@ -46,7 +47,9 @@ ul{
 section,footer{
     padding: 60px 0px;
 }
-
+h5, h6{
+    opacity: 1 !important;
+}
 
 
 /*============================== custom scroll bar =================================*/

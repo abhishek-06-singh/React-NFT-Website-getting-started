@@ -55,7 +55,7 @@
     line-height: 1.4;
     font-weight: 700;
     text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.0px;
     text-transform: uppercase;
     width: 15.1em
 }
@@ -113,8 +113,9 @@
     display: block;
    } 
 
-   .btn{
-    padding: 4px 25px !important;
+   .nav__right .btn{
+    size: 50%;
+    font-size: .4rem;
    }
    .btn a{
     font-size: .7rem !important;
